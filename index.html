@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calcolator</title>
+</head>
+<body>
+    <div class="main d-flex justify-content-center mt-5">
+        <form class="p-4">
+            <input class="textAria forCss mb-3 mt-3" type="text" name="" id="">
+            <table class="">
+                <tr>
+                    <td>
+                        <input class="inputNumber" type="button" value="7" onclick="inputValue(7)">
+                        <input class="inputNumber" type="button" value="8" onclick="inputValue(8)">
+                        <input class="inputNumber" type="button" value="9" onclick="inputValue(9)">
+                        <input class="clear forCss" type="button" value="C" onclick="clean()">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="inputNumber" type="button" value="4" onclick="inputValue(4)">
+                        <input class="inputNumber" type="button" value="5" onclick="inputValue(5)">
+                        <input class="inputNumber" type="button" value="6" onclick="inputValue(6)">
+                        <input class="inputNumber" type="button" value="+" onclick="inputValue('+')">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="inputNumber" type="button" value="1" onclick="inputValue(1)">
+                        <input class="inputNumber" type="button" value="2" onclick="inputValue(2)">
+                        <input class="inputNumber" type="button" value="3" onclick="inputValue(3)">
+                        <input class="inputNumber" type="button" value="-" onclick="inputValue('-')">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="equal forCss" type="button" value="=" onclick="equal()">
+                        <input class="inputNumber" type="button" value="/" onclick="inputValue('/')">
+                        <input class="inputNumber" type="button" value="x" onclick="inputValue('*')">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="js/calcolator.js"></script>
+</body>
+</html>

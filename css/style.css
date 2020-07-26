@@ -1,0 +1,53 @@
+body{
+    background-color:#10163A;
+}
+form{
+    border: 2px solid black;
+    box-shadow: 0px 0px 20px 20px #3f8168;
+    border-radius: 12px;
+}
+.textAria{
+    width: 335px;
+    height: 70px;
+    font-size: 35px;
+    padding: 15px;
+}
+.inputNumber{
+    padding: 5px 10px;
+    width: 80px;
+    cursor: pointer;
+    font-size: 40px;
+    color: antiquewhite;
+    background-color: #1b193a;
+    border: none;
+    outline: none;
+    border-radius: 25px 2px;
+    box-shadow: 0px 0px 15px 1px #0293b8;
+}
+.inputNumber:hover{
+    box-shadow: 0px 0px 25px 8px #00b9b1;
+    transition: all .5s;
+}
+.equal{
+    padding: 5px 10px;
+    width: 164px;
+    font-size: 40px;
+}
+.clear{
+    padding: 5px 10px;
+    width: 80px;
+    cursor: pointer;
+    font-size: 40px;
+}
+.forCss{
+    color: antiquewhite;
+    background-color: #1b193a;
+    border: none;
+    outline: none;
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 15px 1px #0293b8;
+}
+.forCss:hover{
+    box-shadow: 0px 0px 25px 8px #00b9b1;
+    transition: all .5s;
+}
